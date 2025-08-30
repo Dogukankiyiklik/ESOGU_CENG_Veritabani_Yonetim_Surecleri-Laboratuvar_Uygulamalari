@@ -1,0 +1,1 @@
+# ESOGU_CENG_Veritabani_Yonetim_Surecleri-Laboratuvar_Uygulamalari
