@@ -1,1 +1,10 @@
-# ESOGU_CENG_Veritabani_Yonetim_Surecleri-Laboratuvar_Uygulamalari
+# Sayısal Tasarım Laboratuvar Uygulamaları
+**Uygulamalar aşağıdaki konuları içermektedir**
+- Öğrenci bilgi sistemi için ER diyagramı hazırlanmış; öğrenci, bölüm, ders, sınav ve öğretmen varlıkları tanımlanmış, bu varlıkların birbirleriyle olan ilişkileri gösterilmiş ve sistemin temel yapısı ortaya konmuştur.
+- Kütüphane bilgi sistemi için verilen varlık-ilişki diyagramına göre KutuphaneBilgiSistemi veritabanı oluşturulmuş; tablolar, sütunlar ve veri tipleri diyagrama uygun şekilde tanımlanmış, ayrıca kısıtlamalar (constraints) SQL kodlarında uygulanmıştır.
+- BikeStores veri tabanı üzerinde temel SQL sorguları yazılmış; ürünler tablosunda filtreleme, müşteriler tablosunda koşullu seçimler yapılmış, yeni müşteri ekleme, güncelleme ve silme işlemleri uygulanmıştır.
+- BikeStores veri tabanı üzerinde SQL sorguları uygulanmış; ürünlerin min–max, toplam ve ortalama fiyatları hesaplanmış, müşteri listeleri çeşitli koşullara göre sorgulanmış, tarih aralığı ve mağaza bazlı filtrelemeler yapılmıştır.
+- BikeStores veri tabanı üzerinde karmaşık SQL sorguları yazılmış; INNER, LEFT, RIGHT, FULL ve SELF JOIN ifadeleriyle ürün, müşteri, sipariş ve mağaza bilgileri sorgulanmış, marka ve kategori bazlı analizler yapılmıştır.
+- BikeStores veri tabanı üzerinde ileri SQL sorguları uygulanmış; ANY, ALL, EXISTS ve EXCEPT ifadeleri kullanılarak stok, mağaza, müşteri ve sipariş bilgileri sorgulanmış, ayrıca gruplama ve sıralama işlemleri yapılmıştır.
+- BikeStores veri tabanı üzerinde saklı yordamlar (stored procedure) oluşturulmuş; müşteri ve sipariş bilgileri farklı koşullara göre sorgulanmış, kategori ve ürün bazlı analizler yapılmış, parametreli prosedürler kullanılmış ve prosedür güncelleme/silme işlemleri uygulanmıştır.
+- BikeStores veri tabanı üzerinde tetikleyiciler (triggers) oluşturulmuş; müşteri silindiğinde ilgili siparişlerin silinmesi, sipariş eklendiğinde stok miktarının güncellenmesi, ürün ve kategori silme işlemlerinde ilişkili kayıtların düzenlenmesi ve yeni ürün eklendiğinde tüm mağazalarda stok kaydı açılması sağlanmıştır.
